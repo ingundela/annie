@@ -1,0 +1,173 @@
+
+html,
+body{
+    height: 100%;
+    font-family: 'Lato', sans-serif!important;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+p{
+    font-size: 1.4rem;
+    line-height: 1.7;
+    display: block;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+/*--- Navigation ---*/
+.top-nav-collapse{
+    background-color: #e0ebeb;
+}
+.navbar .collapse .navbar-nav li{
+    margin-left: 20px;
+}
+.navbar .collapse .navbar-nav .nav-item a{
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+#navbarNav .nav-link.active {
+    color: #aac94c;
+}
+
+.navbar-brand.h1{
+    display: inline-block;
+    font-size: 5rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Great Vibes', cursive;
+}
+.navbar-brand > span{
+    color: #aac94c;
+}
+
+/*--Hero--*/
+#hero{
+    background: url('../img/annie_banner.jpg')center center no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#hero .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,.6);
+    z-index: 2;
+}
+.hero-caption{
+    max-width: 80rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.hero-caption h1{
+    text-transform: uppercase;
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+}
+.hero-caption h3{
+    font-size: 2rem;
+    color: #cccccc;
+    letter-spacing: 3px;
+    z-index: 3;
+    position: relative;
+    margin: 20px 0;
+}
+#hero .first{
+    font-size: 1.7rem;
+    border: 1px solid #aac94c;
+    color: #fff;
+    background: #78A100;
+    font-weight: 700;
+    letter-spacing: 1px;
+    z-index: 3;
+    position: relative;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+#hero .first:hover{
+    background: #6b8f00!important;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#hero .sec{
+    background: transparent;
+    border: 1px solid #fff;
+    font-size: 1.7rem;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    z-index: 3;
+    position: relative;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+#hero .sec:hover{
+   color: #bfbfbf!important;
+   background-color: transparent!important;
+   -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+
+}
+
+/*-- About me---*/
+.aboutus{
+    padding: 100px 0;
+    background: yellow;
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
